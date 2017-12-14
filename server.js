@@ -36,14 +36,14 @@ app.get('/scrape', function (req, res) {
 
             //writing to our file system
             fs.writeFile('output.json', JSON.stringify(json, null, 4), function (err) {
-                console.log('File written')
+                //console.log('File written')
             })
 
         }
     })
 
     // response to complete the circle of life
-    res.send('check da console')
+    res.send('complete')
 
 })
 
