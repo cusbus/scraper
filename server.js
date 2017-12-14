@@ -34,8 +34,6 @@ app.get('/scrape', function (req, res) {
                 }
             }
 
-            console.log(json)
-
             //writing to our file system
             fs.writeFile('output.json', JSON.stringify(json, null, 4), function (err) {
                 console.log('File written')
