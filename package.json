@@ -1,0 +1,12 @@
+{
+    "name": "node-web-scrape",
+    "version":  "0.0.1",
+    "description": "npr headline scrape",
+    "main": "server.js",
+    "author": "cusbus",
+    "dependencies": {
+        "express": "latest",
+        "request": "latest",
+        "cheerio": "latest"
+    }
+}
