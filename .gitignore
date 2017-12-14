@@ -58,4 +58,4 @@ typings/
 .env
 
 $ output of scraper
-output.js
+output.json
